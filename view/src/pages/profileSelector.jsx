@@ -1,20 +1,21 @@
 import mic from "../assets/images/microfone.svg";
 import headset from "../assets/images/headfone.svg";
 import Databox from "../components/databox";
+import Center from "../components/Center";
 
 function ProfileSelector() {
   return (
-    <div className="min-h-screen w-full flex-col items-center justify-center bg-black text-white">
-      <div className="flex-col  items-center justify-center p-8">
-        <span className="text-xl font-bold mb-2 text-center">
-          <span className="bg-gradient-to-r from-yellow-300 to-pink-400 text-transparent bg-clip-text">
-            Escolha seu perfil
-          </span>
+    <Center>
+      <span className="text-6xl font-bold mb-2 text-center">
+        <span className="bg-linear-to-r from-yellow-300 to-pink-400 text-transparent bg-clip-text">
+          Escolha seu perfil
         </span>
+      </span>
 
-        <p className="text-lg text-zinc-400 pt-10">
-          Você quer se cadastrar como artista ou como contratante?
-        </p>
+      <p className="text-lg text-zinc-400 pt-10">
+        Você quer se cadastrar como artista ou como contratante?
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
         <Databox
           title={"Sou Artista"}
           description={"Divulgue seu talento e receba convites para eventos"}
@@ -31,16 +32,16 @@ function ProfileSelector() {
           textColor={"text-yellow-400"}
           hoverBorderColor={"hover : border-yellow-500"}
         ></Databox>
-
-        <a
-          href="#"
-          className="text-zinc-400 pt-10 hover:text-white transition-colors"
-        >
-          Já tem uma conta?{" "}
-          <span className="font-bold text-yellow-300">Entrar</span>
-        </a>
       </div>
-    </div>
+
+      <a
+        href="#"
+        className="text-zinc-400 pt-10 hover:text-white transition-colors"
+      >
+        Já tem uma conta?{" "}
+        <span className="font-bold text-yellow-300">Entrar</span>
+      </a>
+    </Center>
   );
 }
 export default ProfileSelector;

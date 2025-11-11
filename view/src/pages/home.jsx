@@ -1,7 +1,5 @@
-import Inputs from "../components/Inputs";
-
 function Home() {
-  return <Inputs type={"email"} description={"bdsbdasbd"}></Inputs>;
+  return;
 }
 
 export default Home;
