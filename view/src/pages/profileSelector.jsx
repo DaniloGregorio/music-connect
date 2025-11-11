@@ -17,6 +17,7 @@ function ProfileSelector() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
         <Databox
+          nextPage={"/"}
           title={"Sou Artista"}
           description={"Divulgue seu talento e receba convites para eventos"}
           imageUrl={mic}
@@ -25,6 +26,7 @@ function ProfileSelector() {
           hoverBorderColor={"hover : border-pink-500"}
         ></Databox>
         <Databox
+          nextPage={"/"}
           title={"Sou Contratante"}
           description={"Divulgue seu talento e receba convites para eventos"}
           imageUrl={headset}

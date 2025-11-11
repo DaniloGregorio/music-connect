@@ -9,7 +9,7 @@ function AppRouter() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/profileSelector" element={<ProfileSelector />}></Route>
+      <Route path="/profileSelector" element={<ProfileSelector />} />
     </Routes>
   );
 }
