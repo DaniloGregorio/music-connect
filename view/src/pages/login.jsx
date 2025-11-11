@@ -1,5 +1,5 @@
 import Center from "../components/Center";
-import Imput from "../components/Imput";
+import Imput from "../components/imput";
 
 function Login() {
   return (
@@ -32,5 +32,4 @@ function Login() {
   );
 }
 
-// TESTE
 export default Login;
