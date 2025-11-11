@@ -1,5 +1,5 @@
 import Center from "../components/Center";
-import Imput from "../components/imput";
+import Input from "../components/Input";
 
 function Login() {
   return (
@@ -13,8 +13,8 @@ function Login() {
         Conecte-se com artista, produtores e oportunidades na indústria musical.
       </p>
       <form action="" className="w-full max-w-xl flex flex-col gap-5">
-        <Imput type={"email"} description={"example@gmail.com"}></Imput>
-        <Imput type={"password"} description={"*******"}></Imput>
+        <Input type={"email"} description={"example@gmail.com"}></Input>
+        <Input type={"password"} description={"*******"}></Input>
         <button
           className="w-full mt-6 bg-linear-to-r from-yellow-300 to-pink-400 text-black font-bold py-3 
           rounded-full hover:opacity-50 transition text-2xl"
