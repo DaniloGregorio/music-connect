@@ -2,6 +2,7 @@ import mic from "../assets/images/microfone.svg";
 import headset from "../assets/images/headfone.svg";
 import Databox from "../components/databox";
 import Center from "../components/Center";
+import { Link } from "react-router";
 
 function ProfileSelector() {
   return (
@@ -17,7 +18,7 @@ function ProfileSelector() {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
         <Databox
-          nextPage={"/"}
+          nextPage={"/registerArt"}
           title={"Sou Artista"}
           description={"Divulgue seu talento e receba convites para eventos"}
           imageUrl={mic}
@@ -26,7 +27,7 @@ function ProfileSelector() {
           hoverBorderColor={"hover : border-pink-500"}
         ></Databox>
         <Databox
-          nextPage={"/"}
+          nextPage={"/registerCon"}
           title={"Sou Contratante"}
           description={"Divulgue seu talento e receba convites para eventos"}
           imageUrl={headset}
@@ -36,13 +37,13 @@ function ProfileSelector() {
         ></Databox>
       </div>
 
-      <a
-        href="#"
+      <Link
+        to={"/home"}
         className="text-zinc-400 pt-10 hover:text-white transition-colors"
       >
         Já tem uma conta?{" "}
         <span className="font-bold text-yellow-300">Entrar</span>
-      </a>
+      </Link>
     </Center>
   );
 }
