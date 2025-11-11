@@ -15,7 +15,6 @@ function ResgisterArt() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     setFormData((prevState) => ({
       ...prevState,
       [name]: value,
@@ -23,12 +22,10 @@ function ResgisterArt() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-
     if (formData.senha !== formData.confirmarSenha) {
       alert("As senhas não coincidem!");
       return;
     }
-
     console.log("Dados do formulário para enviar:", formData);
     alert("Cadastro enviado com sucesso!");
   };
