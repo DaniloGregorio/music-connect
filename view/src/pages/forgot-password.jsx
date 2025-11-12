@@ -1,6 +1,6 @@
-import Center from "../components/Center";
-import Input from "../components/Input";
-import Title from "../components/Title";
+import Center from "../components/layout/Center";
+import Input from "../components/layout/Input";
+import Title from "../components/layout/Title";
 import { Link } from "react-router";
 
 function ForgotPassword() {

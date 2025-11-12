@@ -1,7 +1,7 @@
 import { Link } from "react-router";
-import Center from "../components/Center";
-import Input from "../components/Input";
-import Title from "../components/Title";
+import Center from "../components/layout/Center";
+import Input from "../components/layout/Input";
+import Title from "../components/layout/Title";
 import { useState } from "react";
 function Login() {
   const [formLogin, setFormLogin] = useState({
@@ -17,7 +17,7 @@ function Login() {
     console.log(formLogin);
 
     try {
-      const res = await axios.post(
+      const response = await axios.post(
         "http://localhost:5000/user/login",
         formLogin
       );
