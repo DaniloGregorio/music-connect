@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import Center from "../layout/Center";
 import Title from "../layout/Title";
+import banda from "../../assets/images/banda.png";
 
 function BemVindo() {
   return (
@@ -18,6 +19,7 @@ function BemVindo() {
             encontrarem através da música.
           </p>
         </div>
+        <img src={banda} className="w-150 h-150 ml-20"></img>
 
         <div className="w-full lg:w-1/2 flex justify-center"></div>
       </div>
