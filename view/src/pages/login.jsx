@@ -16,7 +16,7 @@ function Login() {
     console.log(formLogin);
 
     try {
-      const res = await axios.post(
+      const response = await axios.post(
         "http://localhost:5000/user/login",
         formLogin
       );
