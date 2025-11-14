@@ -1,34 +1,35 @@
-import React from "react";
-import Infobox from "./Infobox"; // Atualizado para importar Infobox
+import Infobox from "./Infobox";
+import headFoneRoxo from "../../assets/images/headfone-roxo.svg";
+import quebracabeca from "../../assets/images/quebra-cabeca.svg";
+import estrela from "../../assets/images/estrela.svg";
+import seta from "../../assets/images/seta.svg";
 
-// Dados dos cards para facilitar a organização
 const featuresData = [
   {
-    icon: "🎧",
+    icon: headFoneRoxo,
     title: "Conexão direta",
     description:
       "Conecte-se facilmente com outros artistas, produtores e locais.",
   },
   {
-    icon: "📈",
+    icon: seta,
     title: "Aumenta sua visibilidade",
     description:
       "Seja notado por profissionais da indústria musical e expanda sua carreira.",
   },
   {
-    icon: "⭐",
+    icon: estrela,
     title: "4.8+ Avaliações",
     description: "Avaliado positivamente por críticos.",
   },
   {
-    icon: "💼",
+    icon: quebracabeca,
     title: "Funcional e Adaptável",
     description:
       "Uma plataforma criada para atender às suas necessidades únicas.",
   },
 ];
 
-// Renomeado de Features para HomeCards
 const HomeCards = () => {
   return (
     <section className="py-24 px-8 md:px-16">

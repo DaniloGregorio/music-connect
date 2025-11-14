@@ -1,4 +1,3 @@
-import Center from "../layout/Center";
 import banda from "../../assets/images/imgbanda.png";
 
 function BemVindo() {

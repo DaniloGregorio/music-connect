@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router";
 
 const Header = () => {
@@ -18,12 +17,7 @@ const Header = () => {
         >
           Home
         </Link>
-        <Link
-          href="#"
-          className="text-white hover:text-yellow-300 transition-colors"
-        >
-          Descobrir
-        </Link>
+
         <Link
           to="/profileSelector"
           className="text-white hover:text-yellow-300 transition-colors"
