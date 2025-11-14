@@ -1,5 +1,5 @@
 import BemVindo from "../components/homeComponents/BemVindo";
-import HomeCards from "../components/homeComponents/HomeCards";
+import HomeCards from "../components/homeComponents/homeCards";
 import Header from "../components/homeComponents/Header";
 
 function Home() {
