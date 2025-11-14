@@ -1,4 +1,4 @@
-import BemVindo from "../components/homeComponents/bemVindo";
+import BemVindo from "../components/homeComponents/BemVindo";
 import HomeCards from "../components/homeComponents/homeCards";
 import Center from "../components/layout/Center";
 import Title from "../components/layout/Title";

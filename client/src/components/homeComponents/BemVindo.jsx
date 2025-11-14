@@ -1,4 +1,3 @@
-// src/components/Hero.jsx
 import Center from "../layout/Center";
 import Title from "../layout/Title";
 import banda from "../../assets/images/imgbanda.png";
